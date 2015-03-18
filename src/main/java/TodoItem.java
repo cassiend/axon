@@ -23,6 +23,6 @@ public class TodoItem extends AbstractAnnotatedAggregateRoot {
 
     @CommandHandler
     public void markCompleted(MarkCompletedCommand markCompletedCommand){
-        apply(new ToDoItemCompletedEvent(todoId));
+        apply(new ToDoItemCompletedEvent(markCompletedCommand.getTodoId()));
     }
 }
