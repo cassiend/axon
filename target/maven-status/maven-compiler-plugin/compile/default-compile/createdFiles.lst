@@ -1,7 +1,0 @@
-ToDoItemCreatedEvent.class
-TodoItem.class
-MarkCompletedCommand.class
-CreateToDoItemCommand.class
-ToDoItemRunner.class
-ToDoEventHandler.class
-ToDoItemCompletedEvent.class
